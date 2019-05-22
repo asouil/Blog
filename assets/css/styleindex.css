@@ -1,0 +1,22 @@
+
+.porte {
+
+	display: grid;
+	grid-template-column: 1fr 1fr;
+	grid-column: 1/3;
+	grid-template-areas: "un deux"
+						"trois quatre"
+						"cinq six"
+						"sept huit";
+	
+}
+
+.un{ grid-area: "un";}
+.deux{ grid-area: "deux";}
+.trois{ grid-area: "trois";}
+.quatre{ grid-area: "quatre";}
+.cinq{ grid-area: "cinq";}
+.six{ grid-area: "six";}
+.sept{ grid-area: "sept";}
+.huit{ grid-area: "huit";}
+
