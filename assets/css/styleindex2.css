@@ -1,0 +1,24 @@
+
+.porte {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column: 1/3;
+	grid-row: 1/3;
+	grid-template-areas: 
+						"h h"
+						"un deux";
+
+	
+}
+
+h1 { 
+	grid-area: h;
+}
+
+.un{ grid-area: "un";}
+.deux{ grid-area: "deux";}
+
+form {
+    height: 10vw;
+}
