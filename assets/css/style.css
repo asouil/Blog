@@ -85,8 +85,7 @@ li, p{
 	padding-bottom: 20%;
 	padding-left: 25%;
 	display: flex;
-	align-content: center;
-	text-align: center;
+	
 	
 }
 
@@ -143,7 +142,7 @@ ol {
 	.formulaire {
 		padding-top: 15%;
 		padding-left: -15%;
-		padding-right: 0%;
+		
 		font-size: 3em;
 		background-size: 80%;
 	}
